@@ -1,0 +1,8 @@
+post http://localhost:3000/maratona
+Content-Type: application/json
+
+{
+    "aula":"ola1"
+}
+###
+get http://localhost:3000/maratona
