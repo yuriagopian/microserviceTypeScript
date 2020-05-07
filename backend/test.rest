@@ -1,0 +1,9 @@
+post http://localhost:3000/maratona
+Content-Type: application/json
+
+{
+    "aula":"Service Mesh com Istio e Kiali"
+}
+
+###
+get http://localhost:3000/maratona
